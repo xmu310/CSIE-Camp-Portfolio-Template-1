@@ -1,5 +1,6 @@
 <script setup>
 import Typing from "../components/Typing.vue";
+import Project from "../components/project.vue";
 
 function random_text(length = 32) {
     const dict = "abcdefghijklmnopqrstuvwxyz ";
@@ -12,6 +13,7 @@ function random_text(length = 32) {
 </script>
 <template>
     <div class="h-full w-full px-8 pt-16 sm:px-12 sm:pt-20 lg:px-16 lg:pt-24">
+        <Project name="..." description="..." image="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" />
         <Typing text="My Projects" class="block text-2xl sm:text-3xl lg:text-4xl" />
         <div class="py-2">
             <div
