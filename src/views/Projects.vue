@@ -1,6 +1,6 @@
 <script setup>
 import Typing from "../components/Typing.vue";
-import Project from "../components/project.vue";
+import Project from "../components/Project.vue";
 
 function random_text(length = 32) {
     const dict = "abcdefghijklmnopqrstuvwxyz ";
